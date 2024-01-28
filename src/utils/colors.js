@@ -1,7 +1,7 @@
 // colors.js
 
 const colors = {
-    primary: '#ff9000', // Midnight Blue
+    primary: '#ff9001', // Midnight Blue
     secondary: '#110638', // Dodger Blue
     accent: '#27ae60', // Nephritis Green
     background: '#f5f5f5', // Platinum

@@ -41,7 +41,8 @@ const CardImage = styled.img`
 `;
 
 const Title = styled.h3`
-  font-size: 1.5rem;
+  // font-size: 1.5rem;
+  font-weight:600;
   text-align: center;
   border-radius:24px;
   color: ${colors.heading}; /* Blue title color */

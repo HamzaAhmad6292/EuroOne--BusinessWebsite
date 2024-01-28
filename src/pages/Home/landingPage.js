@@ -2,10 +2,13 @@ import React from 'react';
 import img from "../../images/landingimg.png";
 import colors from '../../utils/colors';
 import { Fade } from 'react-awesome-reveal';
+import 'typeface-inter';
+import { Link } from "react-scroll";
+  
 
 function LandingPage() {
   return (
-    <div className='w-screen h-screen p-2 mb-4'>
+    <div className='w-screen h-screen md:p-2 mb-4'>
       <div 
         className='flex justify-center items-center w-screen h-screen overflow-hidden' 
         style={{
@@ -13,18 +16,29 @@ function LandingPage() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           color: '#fff',
+          fontFamily: 'Inter, sans-serif'  ,
+          fontWeight: '700',
+
+        
         }}
       >
-        <Fade direction='up' duration={2000}>
+        <Fade direction='up' duration={1500} triggerOnce > 
         <div className='flex-row justify-center items-center'>
-          <h1 className='text-4xl font-bold'>
+          <h1 className='px-3 text-2xl text-center md:text-4xl' style={{fontSize:"2.5rem"}}>
            Hamza The Great Hamza The Great Hamza The Great  
           </h1> 
-          <h1 className='text-xl'>
+          <h1 className='text-xl text-center px-3' style={{fontWeight:'300'}}>
             oh babi dol masone di oh babi dol masone di
           </h1> 
-        <div className='flex justify-center items-center mt-24'>
-            <Fade direction='up' duration={5000}>
+        <div className='flex justify-center items-center mt-24 '>
+            <Fade direction='up' duration={1500} triggerOnce>
+            <Link
+                  to="showcase" // Id of the next component
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
           <button
             className="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md text-white border-2 "
             style={{
@@ -46,6 +60,7 @@ function LandingPage() {
           >
             Learn More
           </button>
+          </Link>
           </Fade>
           </div>
         </div>

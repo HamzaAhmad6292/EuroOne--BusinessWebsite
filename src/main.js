@@ -8,6 +8,8 @@ import { useState } from 'react';
 import Products from './pages/Products/Products';
 import Contact from './pages/Contact/Contact';
 import Gallery from './pages/gallery';
+import 'typeface-inter';
+
 import { ppCompressionFittings } from './utils/ppCompressionFittings/ppCompressionFittings';
 function Main() {
     // const selectedPage = useSelector((state) => state.page.selectedPage);
@@ -60,7 +62,8 @@ function Main() {
   `;
   
     return (
-      <div className="bg-slate-100 overflow-x-hidden" style={{ '--sb-track-color': '#232e33' }}>
+      <div className="bg-slate-100 overflow-x-hidden" style={{ '--sb-track-color': '#232e33',    fontFamily: 'Inter, sans-serif' ,
+    }}>
         <style>{scrollbarStyles}</style>
         <Navbar></Navbar>
         {selectedPage ? selectedPage : null}

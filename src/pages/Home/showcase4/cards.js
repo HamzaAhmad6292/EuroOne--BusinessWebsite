@@ -31,7 +31,7 @@ const cardData = [
 const Cards = () => {
   return (
     <div className='bg-transparent'>
-      <div className="cards-wrapper">
+      <div className="cards-wrapper items-center justify-center">
         <Fade>
         {cardData.map((card, index) => (
           <main>

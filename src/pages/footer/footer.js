@@ -17,41 +17,41 @@ const Footer = () => {
 					<div className="flex items-center justify-center w-12 h-12 rounded-full ">
 				<img src={logo} alt=""></img>
 					</div>
-					<span className="self-center text-2xl font-semibold text-[#ffffff]">Euroone</span>
+					<span className="self-center text-2xl  text-[#000]" style={{fontWeight:"500"}}>Euroone</span>
 				</a>
 			</div>
 			<div className="col-span-6 text-center md:text-left md:col-span-3 ">
-				<p className="pb-1 text-lg font-medium text-[#000000]">Page Links</p>
+				<p className="pb-1 text-lg  text-[#000000]" style={{fontWeight:"400"}}>Page Links</p>
 				<ul>
 					<li>
-						<a rel="noopener noreferrer" href="home" className="hover:text-[#ffffff]">Home</a>
+						<a rel="noopener noreferrer" href="home" className="hover:text-[#ff9001]">Home</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="ppcompressionfittings" className="hover:text-[#ffffff]">Products</a>
+						<a rel="noopener noreferrer" href="ppcompressionfittings" className="hover:text-[#ff9001]">Products</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="contactus" className="hover:text-[#ffffff]">Contact us</a>
+						<a rel="noopener noreferrer" href="contactus" className="hover:text-[#ff9001]">Contact us</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="gallery" className="hover:text-[#ffffff]">Gallery</a>
+						<a rel="noopener noreferrer" href="gallery" className="hover:text-[#ff9001]">Gallery</a>
 					</li>
 
 				</ul>
 			</div>
 			<div className="col-span-6 text-center md:text-left md:col-span-3 ">
-				<p className="pb-1 text-lg font-medium text-[#000000]">Contact</p>
+				<p className="pb-1 text-lg  text-[#000000]" style={{fontWeight:"400"}}>Contact</p>
 				<ul>
 					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:text-[#ffffff]">Phone No.</a>
+						<a rel="noopener noreferrer" href="#" className="hover:text-[#ff9001]">Phone No.</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:text-[#ffffff]">Address</a>
+						<a rel="noopener noreferrer" href="#" className="hover:text-[#ff9001]">Address</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:text-[#ffffff]">Landline</a>
+						<a rel="noopener noreferrer" href="#" className="hover:text-[#ff9001]">Landline</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#" className="hover:text-[#ffffff]">Socials</a>
+						<a rel="noopener noreferrer" href="#" className="hover:text-[#ff9001]">Socials</a>
 					</li>
 
 				</ul>

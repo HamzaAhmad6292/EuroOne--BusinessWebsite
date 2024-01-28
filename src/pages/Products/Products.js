@@ -47,7 +47,7 @@ const Products = ({setSelectedPage,products}) => {
       >
         <Fade direction='up' duration={2000}>
         <div className='flex-row justify-center items-center'>
-          <h1 className='text-4xl font-bold'>
+          <h1 className='text-4xl ' style={{fontWeight:"700"}}>
             PP Compression Fittings
           </h1> 
           <h1 className='text-xl'>
@@ -63,12 +63,13 @@ const Products = ({setSelectedPage,products}) => {
   duration={500}
 >
   <button
-    className="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md text-white border-2 "
+    className="w-full sm:w-40 px-4 py-3 rounded text-md text-white border-2 "
     style={{
       color: "#fff",
       borderColor: colors.primary,
       backgroundColor: colors.primary,
       transition: "background-color 0.3s, color 0.3s, border-color 0.3s",
+      fontWeight:"500"
     }}
     onMouseEnter={(e) => (
       e.target.style.backgroundColor = "#fff",

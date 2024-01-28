@@ -12,11 +12,15 @@ import PartnerShip from "./partnerShip";
 import CTA from "./CTA";
 import Achievements from "./achievments/achievements";
 import LandingPage from "./landingPage";
+import 'typeface-inter';
+
 
 function Home() {
   const style = {
     backgroundColor: colors.background,
     color: colors.text,
+    fontFamily: 'Inter, sans-serif' ,
+    
   };
   return (
     <div style={style}>

@@ -3,7 +3,8 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import Box from "@mui/material/Box";
 import { Slide } from "react-awesome-reveal";
-
+import { useEffect } from "react";
+import { useState } from "react";
 const itemData = [
   {
     img: "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6",
@@ -87,7 +88,34 @@ const itemData = [
   },
 ];
 
+
+
+
+
+
+
+
 const Gallery = () => {
+
+
+
+
+  const [isPhoneSize, setIsPhoneSize] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const updateSize = () => {
+      setIsPhoneSize(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', updateSize);
+
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
+
+
+
+
   return (
     <Box
       sx={{
@@ -97,13 +125,15 @@ const Gallery = () => {
         alignItems: "center",
         justifyContent: "center",
         overflow: "hidden", // Remove scroll bars
+        paddingX:"4px",
       }}
     >
       <ImageList
         variant="masonry"
-        cols={4}
-        gap={40}
+        cols={isPhoneSize?2:4}
+        gap={30}
         sx={{ maxWidth: "100%", overflow: "hidden" }}
+        
       >
         {itemData.map((item) => (
 
