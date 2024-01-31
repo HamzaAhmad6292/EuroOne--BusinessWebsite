@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import colors from "../../utils/colors";
 import logo from "../../utils/logo.png";
+import { useEffect } from "react";
 import 'typeface-inter';
 import {useNavigate} from "react-router-dom"
 
