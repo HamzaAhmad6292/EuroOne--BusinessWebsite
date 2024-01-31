@@ -94,7 +94,7 @@ export default function Navbar() {
               <li role="none" className="flex items-stretch">
                 <button
 
-                  className="flex items-center gap-2 py-4 transition ease-in-out duration-600 hover:border-b-4 hover:border-[#ff9000] lg:px-8"
+                  className=" flex items-center gap-2 py-4 transition ease-in-out duration-600 hover:border-b-4 hover:border-[#ff9000] lg:px-8"
                   onClick={()=>{navigate("/home")}}
                 >
                   <span>Home</span>
