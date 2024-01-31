@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import colors from "../../utils/colors";
 import logo from "../../utils/logo.png";
 import 'typeface-inter';
+import {useNavigate} from "react-router-dom"
 
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
@@ -14,6 +15,9 @@ export default function Navbar() {
     width: "100%",  // Added this style to make it full-width
     zIndex: 1000,  // Adjusted the z-index for stacking order
   };
+
+  const navigate=useNavigate()
+  
 
 
   return (
@@ -88,14 +92,13 @@ export default function Navbar() {
               }`}
             >
               <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
+                <button
+
                   className="flex items-center gap-2 py-4 transition ease-in-out duration-600 hover:border-b-4 hover:border-[#ff9000] lg:px-8"
-                  href="home"
+                  onClick={()=>{navigate("/home")}}
                 >
                   <span>Home</span>
-                </a>
+                </button>
               </li>
 
               <div className="relative group  flex items-stretch">

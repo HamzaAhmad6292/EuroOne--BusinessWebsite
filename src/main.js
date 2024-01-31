@@ -40,6 +40,10 @@ function Main() {
       else if (page==="ppcompressionfittings"){
         setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
       }
+      else if(page==="") {
+        setSelectedPage(<Home></Home>)
+
+      }
   
       
     }, [page,id]);
