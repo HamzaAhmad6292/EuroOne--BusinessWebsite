@@ -13,8 +13,8 @@ import 'typeface-inter';
 import { ppCompressionFittings } from './utils/ppCompressionFittings/ppCompressionFittings';
 function Main() {
     // const selectedPage = useSelector((state) => state.page.selectedPage);
-  const [selectedPage,setSelectedPage]=useState()
-    const params = useParams();
+  const [selectedPage,setSelectedPage]=useState("")
+    const params = useParams("");
     const { page } = params;
     const {id}=params
     console.log(id)
@@ -40,7 +40,7 @@ function Main() {
       else if (page==="ppcompressionfittings"){
         setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
       }
-      else if(page==="") {
+      else if(page==="" || selectedPage==="") {
         setSelectedPage(<Home></Home>)
 
       }

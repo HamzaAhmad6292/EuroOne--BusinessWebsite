@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import colors from "../../utils/colors";
 
 function Showcase5() {
@@ -33,10 +33,12 @@ function Showcase5() {
       <h4 class="-mt-2 text-2xl " style={{fontWeight:"500",color:"#fff"}}>Title of section 1</h4>
     </div>
     <div class="mb-6 ml-6 pb-6">
+<Slide direction="right">
 
       <p class="mb-4 mt-2 text-neutral-600 dark:text-neutral-300 pr-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do so wh try ti ada adds asxs aaa
       </p>
+</Slide>
  
     </div>
   </li>
@@ -48,12 +50,14 @@ function Showcase5() {
       <h4 class="-mt-2 text-2xl " style={{fontWeight:"500"}}>Title of section 2</h4>
     </div>
     <div class="mb-6 ml-6 pb-6">
+<Slide direction="right">
 
       <p class="mb-4 mt-2 text-neutral-600 dark:text-neutral-200 pr-5">
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
 
       </p>
+</Slide>
 
     </div>
   </li>
@@ -65,12 +69,14 @@ function Showcase5() {
       <h4 class="-mt-2 text-2xl " style={{fontWeight:"500"}}>Title of section 3</h4>
     </div>
     <div class="mb-6 ml-6 pb-6">
+<Slide direction="right">
 
       <p class="mb-4 mt-2 text-neutral-600 dark:text-neutral-200 pr-5">
         At vero eos et accusamus et iusto odio dignissimos ducimus qui
         blanditiis praesentium voluptatum deleniti atque corrupti quos
     
       </p>
+</Slide>
 
     </div>
   </li>
