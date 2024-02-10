@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import colors from '../../../utils/colors';
 import img from '../../../images/landingimg.png';
 import image from '../../../utils/peopleWorking.jpg';
+import { Fade } from 'react-awesome-reveal';
 
 function Achievements() {
   const [isPhoneSize, setIsPhoneSize] = useState(window.innerWidth <= 768);
@@ -17,7 +18,7 @@ function Achievements() {
   }, []);
 
   return (
-    <section className={`my-8 bg-black md:h-[55vh] lg:h-[55vh] ${isPhoneSize ? 'flex flex-col items-center' : 'flex'}`}>
+    <section className={` bg-black md:h-[55vh] lg:h-[55vh] ${isPhoneSize ? 'flex flex-col items-center' : 'flex'}`}>
       <div className={`bg-white ${isPhoneSize ? 'w-full' : 'w-4/12'}`}>
         <img
           src={img}
@@ -25,6 +26,8 @@ function Achievements() {
           alt="Achievements"
         />
       </div>
+
+
 
       <div
         className={`flex justify-center items-center ${isPhoneSize ? 'flex-col p-8 px-16' : 'flex-row'} w-full`}
