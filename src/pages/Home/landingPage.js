@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../../images/landingimg.png";
+import img from "../../utils/landingPage.jpg";
 import colors from '../../utils/colors';
 import { Fade } from 'react-awesome-reveal';
 import 'typeface-inter';
@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 
 function LandingPage() {
   return (
-    <div className='w-screen h-screen md:p-2 mb-4'>
+    <div className='w-screen h-screen mb-4'>
       <div 
         className='flex justify-center items-center w-screen h-screen overflow-hidden' 
         style={{
@@ -25,10 +25,10 @@ function LandingPage() {
         <Fade direction='up' duration={1500} triggerOnce > 
         <div className='flex-row justify-center items-center'>
           <h1 className='px-3 text-2xl text-center md:text-4xl' style={{fontSize:"2.5rem"}}>
-           Hamza The Great Hamza The Great Hamza The Great  
+           EuroOne
           </h1> 
           <h1 className='text-xl text-center px-3' style={{fontWeight:'300'}}>
-            oh babi dol masone di oh babi dol masone di
+            The way to revolutionize the world
           </h1> 
         <div className='flex justify-center items-center mt-24 '>
             <Fade direction='up' duration={1500} triggerOnce>

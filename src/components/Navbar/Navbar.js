@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className="border-b-1 py-2 relative z-20 w-full shadow-slate-700/3 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full  lg:backdrop-blur-xl lg:after:hidden border-b-2 border-gray-300 shadow-lg opacity-100 "
+        className="border-b-1  relative z-20 w-full shadow-slate-700/3 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full  lg:backdrop-blur-xl lg:after:hidden border-b-2 border-gray-300 shadow-lg opacity-100 "
         style={style}
       >
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">

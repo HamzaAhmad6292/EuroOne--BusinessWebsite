@@ -28,9 +28,9 @@ function Home() {
       <Showcase></Showcase>
       {/* <Showcase2></Showcase2> */}
 
-      <Slide direction="up" triggerOnce>
+      {/* <Slide direction="up" triggerOnce>
         <Showcase3></Showcase3>
-      </Slide>
+      </Slide> */}
 
       <Slide direction="up" triggerOnce>
         <Showcase4></Showcase4>
@@ -42,7 +42,7 @@ function Home() {
 
         <CTA></CTA>
 
-      <Achievements></Achievements>
+      {/* <Achievements></Achievements> */}
 
       <Zoom>
         <Testimonial></Testimonial>
