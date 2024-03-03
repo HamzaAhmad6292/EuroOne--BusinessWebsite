@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade, Slide } from "react-awesome-reveal";
+import {  Slide } from "react-awesome-reveal";
 import colors from "../../utils/colors";
 
 function Showcase5() {
@@ -11,7 +11,7 @@ function Showcase5() {
 
         {/* <Fade direction="left" triggerOnce> */}
 
-    <div className="w-6/12 h-full flex justify-center md:justify-center bg-black">
+    <div className="w-8/12 md:w-6/12 md:h-full h-[300px] flex justify-center md:justify-center bg-black">
   <img
     src="https://loremflickr.com/g/600/600/girl"
     className="w-full h-full object-cover transition duration-300 ease-in-out hover:scale-110"

@@ -45,7 +45,7 @@ function Showcase() {
         <img
           src={img}
           alt="Leafs"
-          className="lg:w-full h-48 object-cover sm:h-screen sm:w-4/12 w-screen transition duration-300 ease-in-out hover:scale-110 "
+          className="lg:w-full h-48 object-cover h-screen sm:w-4/12 w-screen transition duration-300 ease-in-out hover:scale-110 "
         />
       </Fade>
     </div>

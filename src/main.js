@@ -40,6 +40,15 @@ function Main() {
       else if (page==="ppcompressionfittings"){
         setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
       }
+      else if (page==="hdpebuttfusionfittings"){
+        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+      }
+      else if (page==="jointingMachines"){
+        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+      }
+      else if (page==="toolsandaccessories"){
+        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+      }
       else if(page==="" || selectedPage==="") {
         setSelectedPage(<Home></Home>)
 

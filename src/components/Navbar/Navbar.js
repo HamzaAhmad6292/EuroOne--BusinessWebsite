@@ -107,18 +107,18 @@ export default function Navbar() {
                   Products
                 </button>
                 <div
-                 className="rounded-3xl absolute hidden mt-20 space-y-2 px-2   group-hover:block bg-gray-900 min-w-60 transition-all duration-300 ease-in-out opacity-0 transform translate-y-2 group-hover:opacity-100 g  roup-hover:translate-y-0 text-white">
+                 className="rounded-2xl absolute hidden mt-[70px] space-y-2 px-2   group-hover:block bg-gray-900 min-w-60 transition-all duration-300 ease-in-out opacity-0 transform translate-y-2 group-hover:opacity-100 g  roup-hover:translate-y-0 text-white">
                   <a href="/ppcompressionfittings" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
                     PP Compression Fittings
                   </a>
-                  <a href="/" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
-                    PE Butt Fusion Fittings
+                  <a href="/hdpebuttfusionfittings" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
+                    HDPE Butt Fusion Fittings
                   </a>
-                  <a href="/" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
+                  <a href="/jointingMachines" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
                     Jointing Machines
                   </a>
-                  <a href="/" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
-                    Other Products
+                  <a href="/toolsandaccessories" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
+                  Tools And Accessories
                   </a>
                 </div>
               </div>
