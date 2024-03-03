@@ -26,7 +26,11 @@ console.log(size[0])
             {/* Divider for heading description */}
             <Divider className="my-4 bg-gray-800" />
         
-
+            {size.map((sizes, index) => (
+                        <div className="leading-relaxed mb-10 mt-20">
+                        <img alt='' src={sizes} ></img>
+                       </div>
+        ))}
 
             {/* Divider for button */}
             <Divider className="my-4" />
