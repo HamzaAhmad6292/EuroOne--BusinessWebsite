@@ -9,8 +9,8 @@ import Products from './pages/Products/Products';
 import Contact from './pages/Contact/Contact';
 import Gallery from './pages/gallery';
 import 'typeface-inter';
+import { buttFusionFittings } from './Products/allProducts';
 
-import { ppCompressionFittings } from './utils/ppCompressionFittings/ppCompressionFittings';
 function Main() {
     // const selectedPage = useSelector((state) => state.page.selectedPage);
   const [selectedPage,setSelectedPage]=useState("")
@@ -38,17 +38,20 @@ function Main() {
         setSelectedPage(<Gallery></Gallery>);
       } 
       else if (page==="ppcompressionfittings"){
-        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={buttFusionFittings}></Products>)
       }
-      else if (page==="hdpebuttfusionfittings"){
-        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
-      }
-      else if (page==="jointingMachines"){
-        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
-      }
-      else if (page==="toolsandaccessories"){
-        setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
-      }
+      // else if (page==="hdpebuttfusionfittings"){
+      //   setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+      // }
+      // else if (page==="jointingMachines"){
+      //   setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+      // }
+      // else if (page==="electrofusionfittings"){
+      //   setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+      // }
+      // else if (page==="toolsandaccessories"){
+      //   setSelectedPage(<Products setSelectedPage={setSelectedPage} products={ppCompressionFittings}></Products>)
+      // }
       else if(page==="" || selectedPage==="") {
         setSelectedPage(<Home></Home>)
 

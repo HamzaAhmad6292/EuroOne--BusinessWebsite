@@ -85,8 +85,7 @@ const ProductCard = ({ product,setSelectedPage }) => {
 
   const handleShowDetails = () => {
     navigate(`${product.name}`);
-    setSelectedPage(<ProductDetails name={product.name} size={product.size} image={product.image}/>);
-
+    setSelectedPage(<ProductDetails name={product.name} size={product.sizeImage} image={product.image}/>);
   };
 
   // useEffect(() => {
@@ -100,7 +99,6 @@ const ProductCard = ({ product,setSelectedPage }) => {
     <CardContainer>
       <CardImage src={product.image} alt={product.name} />
       <Title>{product.name}</Title>
-      <Description>{product.description}</Description>
       <Button onClick={handleShowDetails}>Show Details</Button>
 
     </CardContainer>
