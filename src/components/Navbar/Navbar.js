@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className="border-b-1 py-2 relative z-20 w-full shadow-slate-700/3 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full  lg:backdrop-blur-xl lg:after:hidden border-b-2 border-gray-300 shadow-lg opacity-100 "
+        className="border-b-1  relative z-20 w-full shadow-slate-700/3 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full  lg:backdrop-blur-xl lg:after:hidden border-b-2 border-gray-300 shadow-lg opacity-100 "
         style={style}
       >
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
@@ -107,18 +107,18 @@ export default function Navbar() {
                   Products
                 </button>
                 <div
-                 className="rounded-3xl absolute hidden mt-20 space-y-2 px-2   group-hover:block bg-gray-900 min-w-60 transition-all duration-300 ease-in-out opacity-0 transform translate-y-2 group-hover:opacity-100 g  roup-hover:translate-y-0 text-white">
+                 className="rounded-2xl absolute hidden mt-[70px] space-y-2 px-2   group-hover:block bg-gray-900 min-w-60 transition-all duration-300 ease-in-out opacity-0 transform translate-y-2 group-hover:opacity-100 g  roup-hover:translate-y-0 text-white">
                   <a href="/ppcompressionfittings" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
                     PP Compression Fittings
                   </a>
-                  <a href="/" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
-                    PE Butt Fusion Fittings
+                  <a href="/hdpebuttfusionfittings" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
+                    HDPE Butt Fusion Fittings
                   </a>
-                  <a href="/" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
+                  <a href="/jointingMachines" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
                     Jointing Machines
                   </a>
-                  <a href="/" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
-                    Other Products
+                  <a href="/toolsandaccessories" className="block px-4 py-2 border-b-2 hover:border-b-8 transition-all duration-500 rounded-3xl border-gray-500">
+                  Tools And Accessories
                   </a>
                 </div>
               </div>

@@ -8,23 +8,20 @@ import { Fade } from 'react-awesome-reveal';
 const cardData = [
   {
     image: PP,
-    title: 'HDPE butt fusion Fittings',
+    title: 'PP Compression Fittings',
     description: 'The syntax of a language is how it works. How to actually write it. Learn HTML syntax…',
   },
   {
     image: HDPE,
-    title: 'Basic types of HTML tags',
+    title: 'HDPE butt fusion Fittings',
     description: 'Learn about some of the most common HTML tags…',
     tags: ['HTML'],
   },
   {
     image: 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg',
-    title: 'HDPE butt fusion Fittings',
+    title: 'Other Products ',
   },
-  {
-    image: 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg',
-    title: 'HDPE butt fusion Fittings',
-  },
+
 
 ];
 
@@ -41,8 +38,8 @@ const Cards = () => {
             <h2>  
               {card.title}
             </h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+            <p className='m4-2'>
+              Lorem, ipsum dolor sit amet consectetur 
             </p>
             <button href="#" class="button">
               Find out more 

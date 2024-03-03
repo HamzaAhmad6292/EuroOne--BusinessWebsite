@@ -29,8 +29,8 @@ const ProductCardWrapper = styled.div`
 
 
 
-
 const Products = ({setSelectedPage,products}) => {
+  console.log(products)
 
   return (
 
@@ -94,7 +94,7 @@ const Products = ({setSelectedPage,products}) => {
 </div>
     <div className="" id="products">
       <ProductGrid>
-        {products.map((product, index) => (
+        {products.products.map((product, index) => (
           <ProductCardWrapper key={index}>
             <ProductCard product={product} setSelectedPage={setSelectedPage} />
           </ProductCardWrapper>
